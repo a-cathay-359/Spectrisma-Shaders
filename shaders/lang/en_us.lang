@@ -1,0 +1,43 @@
+
+option.PRESET=Performance preset
+option.PRESET.comment=0 Germinated (potato mode) / 1 Potato (vanilla-like) / 2 Low / 3 Medium / 4 High
+value.PRESET.0=Germinated
+value.PRESET.1=Potato
+value.PRESET.2=Low
+value.PRESET.3=Medium
+value.PRESET.4=High
+
+option.FILTER=Color filter
+option.FILTER.comment=Style grading available in every preset, fine-tune with the sliders below
+value.FILTER.0=None
+value.FILTER.1=Vivid
+value.FILTER.2=Realistic
+value.FILTER.3=Cold
+value.FILTER.4=Warm
+value.FILTER.5=Anime
+
+option.EXPOSURE=Exposure
+option.EXPOSURE.comment=Overall brightness, 1.0 is unchanged
+option.SATURATION=Saturation
+option.SATURATION.comment=1.0 is unchanged
+option.CONTRAST=Contrast
+option.CONTRAST.comment=1.0 is unchanged
+
+profile.comment=Germinated / Potato / Low / Medium / High. Profile names must stay ASCII: Iris renders them in a narrow fixed-width font and CJK glyphs overlap into garbage.
+
+screen.SHADOWS=Shadows
+option.shadowMapResolution=Shadow Resolution
+option.shadowMapResolution.comment=Higher is crisper. 4096 is fine on RTX 3060 or above
+option.shadowDistance=Shadow Distance
+option.shadowDistance.comment=How far shadows are drawn, in blocks. Smaller is sharper
+
+option.CLOUDS=Clouds
+option.CLOUDS.comment=0 off, 1 thin and sparse (recommended), 2 dense
+value.CLOUDS.0=Off
+value.CLOUDS.1=Thin
+value.CLOUDS.2=Dense
+option.CLOUD_STYLE=Cloud style
+option.CLOUD_STYLE.comment=0 flat (stable, cheap); 1 volumetric (thicker, heavier)
+value.CLOUD_STYLE.0=Flat
+value.CLOUD_STYLE.1=Volumetric
+

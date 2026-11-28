@@ -1,0 +1,42 @@
+
+option.PRESET=性能预设
+option.PRESET.comment=0 发芽的马铃薯（极限丐版）/ 1 马铃薯（原版模拟）/ 2 低配 / 3 中配 / 4 高配
+value.PRESET.0=发芽的马铃薯
+value.PRESET.1=马铃薯
+value.PRESET.2=低配
+value.PRESET.3=中配
+value.PRESET.4=高配
+
+option.FILTER=色彩滤镜
+option.FILTER.comment=全档位通用的色彩风格，可在下方用曝光/饱和度/对比度二次微调
+value.FILTER.0=无滤镜
+value.FILTER.1=原版明艳
+value.FILTER.2=真实中性
+value.FILTER.3=真实冷
+value.FILTER.4=真实暖
+value.FILTER.5=日漫风
+
+option.EXPOSURE=曝光
+option.EXPOSURE.comment=整体亮度，1.0 为原样
+option.SATURATION=饱和度
+option.SATURATION.comment=1.0 为原样，低于 1 更灰，高于 1 更艳
+option.CONTRAST=对比度
+option.CONTRAST.comment=1.0 为原样，越高明暗反差越大
+
+profile.comment=germinated 发芽的马铃薯 / potato 马铃薯 / low 低配 / medium 中配 / high 高配。这一栏是 Iris 的窄字体，只能用英文显示，中文会重叠成乱码。
+
+screen.SHADOWS=阴影设置
+option.shadowMapResolution=阴影贴图分辨率
+option.shadowMapResolution.comment=越高阴影边缘越细腻。RTX 3060 及以上的显卡可以稳上 4096
+option.shadowDistance=阴影覆盖距离
+option.shadowDistance.comment=阴影能画到多远（单位：方块）。越小越清晰，越大阴影越糊
+
+option.CLOUDS=云层
+option.CLOUDS.comment=0 关闭云；1 轻薄稀疏（推荐）；2 浓密覆盖
+value.CLOUDS.0=关闭
+value.CLOUDS.1=轻薄稀疏
+value.CLOUDS.2=浓密
+option.CLOUD_STYLE=云类型
+option.CLOUD_STYLE.comment=0 平面云（成团、稳定、开销低）；1 体积云（立体、有厚度，更吃性能）
+value.CLOUD_STYLE.0=平面云
+value.CLOUD_STYLE.1=体积云
